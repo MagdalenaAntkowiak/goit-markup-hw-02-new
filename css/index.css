@@ -33,6 +33,9 @@ a {
 
 }
 
+.webstudio {
+  letter-spacing: 0.03em;
+}
 .web {
   color:#2196f3
   font: "Raleway";
@@ -52,6 +55,7 @@ a {
   font-weight: 500;
   line-height: 1.17;
   color: var(--font-color);
+  letter-spacing: 0.02;
 }
 .button {
   cursor: pointer;
@@ -61,13 +65,15 @@ a {
   font-weight: 500;
   line-height: 1.17;
   color: var(--font-color2);
+  letter-spacing: 0.02;
 }
 .title {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
   color: var(--font-color3);
-  background-color: #2f303a;
+  letter-spacing: 0.06em;
+
 }
 .type {
   font-size: 16px;
@@ -75,36 +81,42 @@ a {
   line-height: 1.88;
   color: var(--font-color3);
   background-color: var(--font-hover-focus);
+  letter-spacing: 0.06em;
 }
 .main-text {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.17;
   color: var(--font-color);
+  letter-spacing: 0.03em;
 }
 .text {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
   color: var(--font-color2);
+  letter-spacing: 0.03em;
 }
 .second-h {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.18;
   color: var(--font-color);
+  letter-spacing: 0.03em;
 }
 .name {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.17;
   color: var(--font-color);
+  letter-spacing: 0.03em;
 }
 .company-position {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.17;
   color: var(--font-color2);
+  letter-spacing: 0.03em;
 }
 .address {
   font-size: 14px;
@@ -112,24 +124,28 @@ a {
   line-height: 1.71;
   color: var(--font-color3);
   font-style: normal;
+  letter-spacing: 0.03em;
 }
 .info-footer {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
-  color: var(--font-color3);
+  color: rgba(255, 255, 255, 0.6)
+  letter-spacing: 0.03em;
 }
 .offer {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
   color: var(--font-color);
+  letter-spacing: 0.06em;
 }
 .type-service {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.88;
   color: var(--font-color2);
+  letter-spacing: 0.03em;
 }
 .link {
   font-size: 14;
@@ -137,26 +153,22 @@ a {
   line-height: 1.17;
   color: var(--font-color);
 }
-.menu {
-  font-size: 16;
-  font-weight: 500;
-  line-height: 1.62;
-  color: var(--font-color);
-}
+
 .button.data {
   font-size: 16;
   font-weight: 500;
   line-height: 1.62;
   color: var(--font-color);
+  letter-spacing: 0.03em;
 }
 
 .button:focus{
-    color: #ffffff;
+    color: var(--font-color3);
     background-color:var(--font-hover-focus)
     
 
 }
 .button:hover{
-    color: #ffffff;
+    color: var(--font-color3);
     background-color:var(--font-hover-focus)
 }
