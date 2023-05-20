@@ -3,7 +3,7 @@ body {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.2;
-  background-color: var(--main-background-color);
+  background-color: var(--font-color3);
   color: var(--font-color);
 }
 
@@ -14,11 +14,11 @@ a {
   text-decoration: none;
 }
 
-.link:focus{
-    color:var(--font-hover-focus)
+.link:focus {
+  color: var(--font-hover-focus);
 }
-.link:hover{
-    color:var(--font-hover-focus)
+.link:hover {
+  color: var(--font-hover-focus);
 }
 
 :root {
@@ -28,16 +28,14 @@ a {
   --font-color2: #757575;
   --font-color3: #ffffff;
   --font-hover-focus: #2196f3;
-  --font-studio:#000000;
-
-
+  --font-studio: #000000;
 }
 
 .webstudio {
   letter-spacing: 0.03em;
 }
 .web {
-  color:#2196f3
+  color: #2196f3;
   font: "Raleway";
   font-size: 26px;
   font-weight: 700;
@@ -45,6 +43,14 @@ a {
 }
 .studio {
   color: var(--font-studio);
+  font: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.studio-2 {
+  color: var(--font-color3);
   font: "Raleway";
   font-size: 26px;
   font-weight: 700;
@@ -73,7 +79,6 @@ a {
   line-height: 1.36;
   color: var(--font-color3);
   letter-spacing: 0.06em;
-
 }
 .type {
   font-size: 16px;
@@ -130,7 +135,7 @@ a {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
-  color: rgba(255, 255, 255, 0.6)
+  color: rgba(255, 255, 255, 0.6);
   letter-spacing: 0.03em;
 }
 .offer {
@@ -151,7 +156,6 @@ a {
   font-size: 14;
   font-weight: 500;
   line-height: 1.17;
-  color: var(--font-color);
 }
 
 .button.data {
@@ -162,13 +166,27 @@ a {
   letter-spacing: 0.03em;
 }
 
-.button:focus{
-    color: var(--font-color3);
-    background-color:var(--font-hover-focus)
-    
-
+.button:focus {
+  color: var(--font-color3);
+  background-color: var(--font-hover-focus);
 }
-.button:hover{
-    color: var(--font-color3);
-    background-color:var(--font-hover-focus)
+.button:hover {
+  color: var(--font-color3);
+  background-color: var(--font-hover-focus);
+}
+
+.footer-color {
+  background-color: var(--second-background-color);
+  width: 1600px;
+  height: 252px;
+}
+
+.background-top {
+  background-color: var(--second-background-color);
+  width: 1600px;
+  height: 600px;
+}
+
+.crew-background-color {
+  background-color: #f5f4fa;
 }

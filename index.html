@@ -8,15 +8,17 @@
     <link rel="stylesheet" type="text/css" href="css/index.css" />
   </head>
   <body>
-    <header>
+    <header">
       <a class="webstudio" href="#"
         ><span class="web">Web</span><span class="studio">Studio</span>
       </a>
-      <nav class="nav-header">
+      <nav>
         <ul>
-          <li><a class="link" href="#">Agencja</a></li>
-          <li><a class="link" href="portfolio.html">Portfolio</a></li>
-          <li><a class="link" href="#">Kontakt</a></li>
+          <li><a class="link nav-header" href="#">Agencja</a></li>
+          <li>
+            <a class="link nav-header" href="portfolio.html">Portfolio</a>
+          </li>
+          <li><a class="link nav-header" href="#">Kontakt</a></li>
         </ul>
       </nav>
       <a class="link contact-header" href="mail:info@devstudio.com"
@@ -25,7 +27,7 @@
       <a class="link contact-header" href="tel:48111111111">+48 111 111 111</a>
     </header>
     <main>
-      <div>
+      <div class="background-top">
         <h1 class="title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
         <button class="button type" type="button">Zamów usługę</button>
       </div>
@@ -93,16 +95,18 @@
         </ul>
       </div>
 
-      <div>
+      <div class="crew-background-color">
         <h2 class="second-h">Nasz zespół</h2>
         <ul>
           <li>
+            
             <img
               src="images/foto_21.jpg"
               alt="mężycznaw okularach"
               width="270"
               height="260"
             />
+            
             <h3 class="name">John Doe</h3>
             <p class="company-position">Product Designer</p>
           </li>
@@ -135,33 +139,36 @@
             />
             <h3 class="name">John Doe</h3>
             <p class="company-position">UI Designer</p>
+          
           </li>
         </ul>
-      </div>
+       </div> 
     </main>
 
-    <footer></footer>
-    <a href="#">
-      <span class="web">Web</span><span class="studio">Studio</span>
-    </a>
-    <ul>
-      <li>
-        <address class="link address">
-          <a
-            href="https://goo.gl/maps/n3HSszcndaVt4yHJ9?coh=178573&entry=tt"
-            target="_blank"
-            >m. Warszawa Aleje Jerozolimskie 21</a
+    <footer class="footer-color">
+      <a href="#">
+        <span class="web">Web</span><span class="studio-2">Studio</span>
+      </a>
+      <ul>
+        <li>
+          <address>
+            <a
+              class="link address"
+              href="https://goo.gl/maps/n3HSszcndaVt4yHJ9?coh=178573&entry=tt"
+              target="_blank"
+              >m. Warszawa Aleje Jerozolimskie 21</a
+            >
+          </address>
+        </li>
+        <li>
+          <a class="link info-footer" href="mail:info@devstudio.com"
+            >info@devstudio.com</a
           >
-        </address>
-      </li>
-      <li>
-        <a class="link info-footer" href="mail:info@devstudio.com"
-          >info@devstudio.com</a
-        >
-      </li>
-      <li>
-        <a class="link info-footer" href="tel:48111111111">+48 111 111 111</a>
-      </li>
-    </ul>
+        </li>
+        <li>
+          <a class="link info-footer" href="tel:48111111111">+48 111 111 111</a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
